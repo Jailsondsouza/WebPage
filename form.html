@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="e">
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Identificação Pessoal</legend>
+			<label for="PrimeiroNome">Nome:</label>
+			<input type="text" name="PrimeiroNome"
+			placeholder="Informe seu nome">
+
+			<label for="Sobrenome">Sobrenome:</label>
+			<input type="text" name="sobrenome"
+			placeholder="Informe seu sobrenome">
+		</fieldset>
+		<br>
+
+		<fieldset>
+
+			<legend>Gênero</legend>
+			<input type="radio" name="gender" value="male"
+			checked> Masculino<br>
+			<input type="radio" name="gender" value="female"
+			checked> Feminino<br>
+			<input type="radio" name="gender" value="other"
+			checked> Outro<br>
+
+		</fieldset>
+		<br>
+
+		<fieldset>
+			<legend>Carros</legend>
+			<select name="cars">
+				<option value="jeep">Jeep Compass</option>
+				<option value="honda">Honda Civic</option>
+				<option value="toyota">Toyota Corolla</option>
+				<option value="audi">Audi A4</option>
+			</select>
+
+		</fieldset>
+		<br>
+
+		<input type="submit" value="Enviar">
+
+	</form>
+
+</body>
+</html>
